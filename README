@@ -1,1 +1,42 @@
+                                                Weather-App
+                                                
+To find temperature and apparent temperature at a location
+1) google api is used for fetching latitude and longitude
+2) forecast/darksky api is used for fetching latitude and longitude
+
+Steps to run the Weather-app Application:
+
+******************************************************************************************************
+If you haven't installed nodejs or npm I would recommend to follow the instructions in the below url.
+https://nodejs.org/en/download/
+
+Before executing the files, list of packages used:
+node v8.9.4
+npm 5.6.0
+axios 0.13.1
+request 2.83.0
+yargs 11.0.0
+
+There is a possibility of error if you have different versions.
+******************************************************************************************************
+
+If you are not in the notes-node folder,
+
+cd weather-app/
+npm install
+node app.js --help
+or
+node app-promise.js --help
+
+// To see weather at particular address "charlotte nc" 
+node app.js --address "charlotte nc"
+(or) node app.js -a "charlotte nc"
+(or) node app-promise.js --address "charlotte nc"
+(or) node app-promise.js -a "charlotte nc"
+
+// To see weather at pincode 28262
+node app.js --address 28262
+(or) node app.js -a 28262
+(or) node app-promise.js --address 28262
+(or) node app-promise.js -a 28262
 
